@@ -1,6 +1,6 @@
 {
     "name": "@jupiterjs/jupiter-log",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "一个打印日志的类",
     "main": "lib/main/index.js",
     "types": "lib/types/index.d.ts",
