@@ -2,12 +2,13 @@ import { TConfig } from '../types'
 import { formatDate } from './date'
 
 function genPrefix (typeName:string):string {
-  return `[${formatDate('yyyy-MM-dd hh:mm:ss', new Date())}][${typeName.toUpperCase()}][${config.moduleName}]`
+  return `[${formatDate(config.dateFormatText, new Date())}][${typeName.toUpperCase()}][${config.moduleName}]`
 }
 
 export const config:TConfig = {
   moduleName: 'jupiter-log',
-  mode: 'development'
+  mode: 'development',
+  dateFormatText: 'hh:mm:ss'
 }
 
 /**

@@ -11,5 +11,6 @@ export type TMode = "development" | "production"
 
 export type TConfig = {
   moduleName:string,
-  mode:TMode
+  mode:TMode,
+  dateFormatText:string
 }

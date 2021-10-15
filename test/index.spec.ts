@@ -2,6 +2,7 @@ import { warn, info, debug, error, config } from '../src/index'
 
 beforeAll(() => {
   config.moduleName = 'MoonJS'
+  config.dateFormatText = 'yyyy-MM-dd hh:mm:ss'
 })
 
 test('1.检验 info 函数', () => {
