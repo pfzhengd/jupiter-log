@@ -1,3 +1,12 @@
+## [0.0.4](https://github.com/pfzhengd/jupiter-log/compare/v0.0.3...v0.0.4) (2021-11-17)
+
+
+### Bug Fixes
+
+* 修复info日志打印类型不正确。 ([e42f832](https://github.com/pfzhengd/jupiter-log/commit/e42f832644197b01899d6500479da464b04bcb8d))
+
+
+
 ## [0.0.3](https://github.com/pfzhengd/jupiter-log/compare/v0.0.2...v0.0.3) (2021-10-15)
 
 
