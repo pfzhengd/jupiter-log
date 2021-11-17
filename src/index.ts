@@ -54,7 +54,7 @@ export const error = function (...rest:any) {
  * @param {*} msg  第二个参数
  */
 export const info = function (...rest:any) {
-  common('log', rest)
+  common('info', rest)
 }
 
 /**
