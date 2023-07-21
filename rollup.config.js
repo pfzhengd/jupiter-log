@@ -9,8 +9,12 @@ export default () => {
       input: `./src/${fileName}.ts`,
       output: [
         {
-          format: 'es',
+          format: 'cjs',
           file: `lib/main/${fileName}.js`
+        },
+        {
+          format: 'es',
+          file: `lib/es/${fileName}.js`
         }
       ],
       plugins: [
