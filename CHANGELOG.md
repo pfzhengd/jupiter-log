@@ -1,3 +1,12 @@
+## [0.0.5](https://github.com/pfzhengd/jupiter-log/compare/v0.0.4...v0.0.5) (2023-07-21)
+
+
+### Features
+
+* 1、支持 es 、cjs 两种文件构建的输出 ([16f8aaa](https://github.com/pfzhengd/jupiter-log/commit/16f8aaac40744aa4ce07d475423bb601fc20c15d))
+
+
+
 ## [0.0.4](https://github.com/pfzhengd/jupiter-log/compare/v0.0.3...v0.0.4) (2021-11-17)
 
 
